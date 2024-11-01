@@ -1,0 +1,269 @@
+.trovaprezzi_container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+/*	SELF CLEARING FLOATS - CLEARFIX METHOD */
+.trovaprezzi_container:after,
+.trovaprezzi_row:after,
+.trovaprezzi_col:after,
+.clr:after,
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 	DEFAULT ROW STYLES
+	Set bottom padding according to preference */
+.trovaprezzi_row { padding-bottom: 0em;
+}
+
+
+/* DEFAULT COLUMN STYLES */
+.trovaprezzi_col {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+/*	COLUMN WIDTH ON DISPLAYS +768px
+	You might need to play with media queries here to suite your design. */
+
+
+.set_wp_trovaprezzi_wp_list_table { cursor: pointer; }
+ul.wp_tax_esclude ul.children,
+ul.select_tax_settings ul.children { margin-left: 18px; }
+ul.wp_tax_esclude li { margin: 5px;}
+ul.select_tax_settings li { margin-bottom: 0px; line-height: 22px; }
+
+#wp_trovaprezzi_metabox ul.children { margin-left: 18px; }
+#wp_trovaprezzi_metabox li { margin-bottom: 0px; line-height: 22px; }
+
+
+ul.pws_tabs_controll{ width: auto !important; }
+
+
+#wp_trovaprezzi_option_page_general,
+#wp_trovaprezzi_option_page_select,
+#wp_trovaprezzi_option_page_feed,
+#wp_trovaprezzi_option_page_filter,
+#wp_trovaprezzi_option_page_xml_document {
+    background: #fff;
+    border: 3px solid #D34F2A;
+    padding: 30px;
+    margin: 10px 0px;
+    -webkit-box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.75);
+}
+
+span.checkable {
+    font-size: 16px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+input#submit{
+    background: #37A952;
+    color: #fff;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 20px 20px;
+    line-height: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.form-table th{
+  border-right: 1px solid #ccc;
+    vertical-align: middle;
+}
+.form-table tr{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.wp_trovaprezzi_logo_tp{
+    margin: 30px 0px;
+}
+
+.wp_trovaprezzi_wrap{
+    margin-top: 0px;
+    border: 3px solid #D34F2A;
+    padding: 30px;
+    background: #D34F2A;
+    margin-left: 0px;
+}
+.nav-tab-wrapper .nav-tab{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-left: 0px;
+    border-bottom: none;
+    border: 3px solid;
+    border-color: #E4E4E4;
+}
+.nav-tab-wrapper .nav-tab-active{
+    background: #D34F2A;
+    color: #fff;
+    border-color: #D34F2A;
+
+}
+
+.pws_tabs_container{
+    border: 3px solid #D34F2B;
+}
+
+
+ul.pws_tabs_controll li:last-child{margin-bottom: -3px;}
+
+
+.wp_trovaprezzi_download_csv{
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 10px 20px;
+    line-height: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.wp_trovaprezzi_warning-csv{
+    margin: 30px 0px 40px 0px;
+    border: 2px solid #0073AA;
+    padding: 10px;
+}
+
+.wp_trovaprezzi_feed_csv{
+    background: #D34F2B;
+    color: #fff;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    padding: 10px 20px;
+    line-height: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+.wp_trovaprezzi_premium_class a:after {
+    content:' >>';
+}
+
+.hide_wp_tp_exclude_cat{
+  display: none;
+}
+
+ul.stock_filter_settings input,
+ul.price_filter_settings input{
+    border: 3px solid #D34F2B;
+    width: 50px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+span.wp_tp_description{
+    color: #7B7A7A;
+    font-size: 12px;
+}
+ul.part_number_custom_post_meta_value_settings,
+ul.eancode_custom_post_meta_value_settings,
+ul.code_custom_post_meta_value_settings,
+ul.custom_post_meta_value_settings,
+ul.custom_shipping_cost_settings{
+  display: none;
+  border: 2px solid #D34F2B;
+    padding: 30px;
+    margin: 30px;
+}
+ul.part_number_custom_post_meta_value_settings.visible,
+ul.eancode_custom_post_meta_value_settings.visible,
+ul.code_custom_post_meta_value_settings.visible,
+ul.custom_post_meta_value_settings.visible,
+ul.custom_shipping_cost_settings.visible{ display: block; }
+
+table#wp_trovaprezzi_products { border-collapse: collapse; }
+table#wp_trovaprezzi_products tr { border-top: 1px solid #bbb;  }
+
+table#wp_trovaprezzi_products img{
+    max-width: 100%;
+}
+table#wp_trovaprezzi_products th,
+table#wp_trovaprezzi_products td{ font-size: 12px; border-right: 1px solid #eee;vertical-align: middle; }
+table#wp_trovaprezzi_products th{
+    font-weight: 600;
+    background-image: url('../img/bg.gif');
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table#wp_trovaprezzi_products th.wp_tp_table_status,
+table#wp_trovaprezzi_products td.wp_tp_table_status{ text-align: center; }
+table#wp_trovaprezzi_products tr.even{ background: #eee;}
+
+table#wp_trovaprezzi_products .wp_tp_table_products_required,
+.wp_trovaprezzi_warning{
+    font-weight: 900;
+    background: #D34F2B;
+    color: #fff;
+    font-size: 9px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.wp_tp_table_legend{
+    border: 5px solid #D34F2A;
+    padding: 15px 30px;
+    background: #fff;
+    margin-left: 0px;
+}
+
+.wp_tp_table_legend_ok {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.wp_tp_dashicons {
+  font-size: 30px;
+margin-right: 15px;
+display: inline-block;
+position: relative;
+bottom: 2px;
+}
+
+.wp_trovaprezzi_premium_class a {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    background: #D34F2A;
+    color:#fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+@media ( min-width : 768px ) {
+
+    .gutters .trovaprezzi_col {
+        margin-left: 2%;
+    }
+
+    .gutters .trovaprezzi_col:first-child {
+        margin-left: 0;
+    }
+}

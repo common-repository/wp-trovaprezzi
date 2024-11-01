@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp TrovaPrezzi Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Mar 30 2016 14:59:24 GMT+0200 (CEST)\n"
+"PO-Revision-Date: Wed Mar 30 2016 15:01:13 GMT+0200 (CEST)\n"
+"Last-Translator: frafra85 <fraprestipino@gmail.com>\n"
+"Language-Team: \n"
+"Language: Italian\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: it_IT"
+
+#. Name of the plugin
+msgid "Wp TrovaPrezzi Free"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.wemiura.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. Author of the plugin
+msgid "WeMiura"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:172
+msgid "Prodotto in Trova Prezzi"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:342 ../admin/class-wp-trova-prezzi-free-
+#: admin.php:343
+msgid "TrovaPrezzi"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:419
+msgid "Voglio impostare i prodotti per TrovaPrezzi:"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:429
+msgid "Seleziona"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:436
+msgid "Inserisci nel feed i prodotti appartenenti alle seguenti tassonomie:"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:444
+msgid "Voglio aggiungere i prodotti:"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:454
+msgid "Impostazioni Feed"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:460
+msgid ""
+"Seleziona la Tassonomia per la creazione dell'albero delle categorie di "
+"TrovaPrezzi"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:468
+msgid "Categoria da escludere a prescindere dall' albero delle categorie"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:476
+msgid "Seleziona il valore Brand:"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:484
+msgid "Quale valore associare al tag \"Code\":"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:492
+msgid "Quale Description mostrare ?"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:500
+msgid "Quale valore associare al tag \"EanCode\":"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:508
+msgid "Quale valore associare al tag \"PartNumber\":"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:516
+msgid "Selezionare il tipo di spedizione da considerare per il feed XML:"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:527
+msgid "Impostazioni Filtri"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:533
+msgid "Filtra per prezzo"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:541
+msgid "Filtra per Quantità"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:551
+msgid "FEED GENERATO"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:590
+msgid ""
+"Impostazioni per la creazione del Feed. Seleziona i valori che vuoi mostrare."
+"<br />Il Feed ed il CSV saranno costituiti da paramentri a cui è necessario "
+"associare dei valori.<br />\n"
+"		Da questa sezione è possibile scegliere quale valore associare a ciascun "
+"parametro."
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:594
+msgid ""
+"Da questa sezione sarà possibile, se lo si ritiene necessario, effettuare "
+"una raffinazione ed un filtro dei prodotti da esportare nel Feed ( o CSV ) "
+"di Trovaprezzi."
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:597
+msgid "Download CSV "
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:598
+msgid "Feed XML "
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:608
+msgid "Gestisci Automaticamente"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:613
+msgid "Gestisci Manualmente"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:668
+msgid "In Saldo"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:675
+msgid "In Vetrina"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:772
+msgid "Nessuna, utilizzo \"Brand TrovaPrezzi\" ( consigliata )"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:780 ../admin/class-wp-trova-prezzi-free-
+#: admin.php:824 ../admin/class-wp-trova-prezzi-free-admin.php:897 ../admin/class-wp-
+#: trova-prezzi-admin.php:945
+msgid "Un custom post meta"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:800 ../admin/class-wp-trova-prezzi-free-
+#: admin.php:873 ../admin/class-wp-trova-prezzi-free-admin.php:925
+msgid "COD ( _sku )  ( consigliata )"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:805 ../admin/class-wp-trova-prezzi-free-
+#: admin.php:879 ../admin/class-wp-trova-prezzi-free-admin.php:930
+msgid "ID Prodotto"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:846
+msgid "Breve descrizione ( consigliata )"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:854
+msgid "Descrizione Estesa "
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:909
+msgid "Non specificare EanCode."
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:958
+msgid "Non specificare PartNumber."
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:979
+msgid "Tariffa unica"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:986
+msgid "Tariffa Unica Internazionale"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:993
+msgid "Spedizione Nazionale"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:999
+msgid "Non specificare costi di Spedizione"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1004
+msgid "Voglio impostare manualmente i costi di spedizione da mostrare su TrovaPrezzi"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1012 ../admin/class-wp-trova-prezzi-free-
+#: admin.php:1040 ../admin/class-wp-trova-prezzi-free-admin.php:1045 ../admin/class-wp-
+#: trova-prezzi-admin.php:1060
+msgid "( -1 per disattivare il filtro )"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1040
+msgid "Solo Prodotti con un prezzo maggiore di: "
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1045
+msgid "Solo Prodotti con un prezzo inferiore di: "
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1060
+msgid "Solo Prodotti con una quantità maggiore di: "
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1060
+msgid "( 0 per tutti i prodotti disponibili)"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1219
+msgctxt "Taxonomy General Name"
+msgid "Brands"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1220
+msgctxt "Taxonomy Singular Name"
+msgid "Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1221
+msgid "Brand TrovaPrezzi"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1222
+msgid "Tutti i Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1223 ../admin/class-wp-trova-prezzi-free-
+#: admin.php:1224
+msgid "Parent"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1225
+msgid "Nuovo Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1226
+msgid "Aggiungi Nuovo"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1227
+msgid "Modifca Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1228
+msgid "Aggiorna Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1229
+msgid "Vedi Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1230
+msgid "Separate manufactures with commas"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1231
+msgid "Add or remove manufactures"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1232
+msgid "Choose from the most used manufactures"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1233
+msgid "Popular Items"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1234
+msgid "Cerca Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1235
+msgid "Not Found"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1236
+msgid "Nessun Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1237
+msgid "Lista Brand"
+msgstr ""
+
+#: ../admin/class-wp-trova-prezzi-free-admin.php:1238
+msgid "Items list navigation"
+msgstr ""
